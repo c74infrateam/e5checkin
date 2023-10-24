@@ -15,12 +15,12 @@ public class OutlookListVo {
     private String clientSecret;
     private Integer cronTimeRandomStart;
     private Integer cronTimeRandomEnd;
-    /*名称*/
+    /*name*/
     private String name;
-    /*描述*/
+    /*description*/
     private String describes;
-    /*下次调用时间*/
+    /*next-call*/
     private Integer nextTime;
-    /*运行状态*/
+    /*status*/
     private int status;
 }
