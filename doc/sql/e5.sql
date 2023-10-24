@@ -1,7 +1,7 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 本地Mysql5.7
+ Source Server         : MySQL 5.7
  Source Server Type    : MySQL
  Source Server Version : 50719
  Source Host           : localhost:3306
