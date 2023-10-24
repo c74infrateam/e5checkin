@@ -7,7 +7,7 @@ import com.influxdb.query.FluxTable;
 import io.qyi.e5.outlook_log.entity.OutlookLog;
 import org.junit.jupiter.api.Test;
 import org.springframework.cglib.beans.BeanMap;
-
+ 
 import java.util.*;
 
 public class influxdb2Test {
