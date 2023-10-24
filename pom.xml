@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-        <!--排除自带的logging-->
+        <!--logging-->
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -47,13 +47,13 @@
             </exclusions>
         </dependency>
 
-        <!-- 引入log4j2依赖 -->
+        <!-- log4j2 -->
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>-->
 
-        <!--权限管理插件-->
+        <!--Rights management plug-in-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -69,7 +69,7 @@
             <!--<version>4.12</version>-->
             <!--<scope>test</scope>-->
         </dependency>
-        <!--    lombok插件    -->
+        <!--    Lombok plugin    -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -103,24 +103,24 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <!--多数据源-->
+        <!--Multiple data sources-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <!--Mybatis plus代码生成器-->
+        <!--Mybatis Plus code generator-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <!--添加redis缓存依赖-->
+        <!--Add redis cache dependencies-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-        <!-- redis依赖commons-pool 这个依赖一定要添加 -->
+        <!-- Redis dependency on commons-pool must be added -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
@@ -185,13 +185,13 @@
 
 
 
-        <!--webflux依赖-->
+        <!--Webflux dependencies-->
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>-->
 
-        <!--这个包同时包含了一些其它的包：spring-context、spring-tx、spring-web、spring-messaging、spring-retry、spring-amqp、amqp-client，如果想单纯一点，可以单独引入。-->
+        <!--This package also contains a number of other packages：spring-context、spring-tx、spring-web、spring-messaging、spring-retry、spring-amqp、amqp-client，etc -->
        <!-- <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit</artifactId>
