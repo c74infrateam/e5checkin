@@ -2,7 +2,7 @@ package io.qyi.e5.outlook.bean;
 
 import lombok.Data;
 
-/**
+/** 
  * @program: e5
  * @description:
  * @author: 落叶随风
